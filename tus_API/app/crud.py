@@ -1,4 +1,5 @@
 import uuid
+import copy
 from cassandra.cqlengine.management import sync_table
 from numpy import product
 from .db import get_session
@@ -15,7 +16,9 @@ def create_scrape_entry(data:dict):
     data['uuid'] = uuid.uuid1() #includes a timestamp
     return EventScrapeEvent.create(**data)
 
-def add_scrape_entry(data:dict):
+def add_scrape_entry(data:dict, fresh: False):
+    if fresh:
+        data = copy.deepcopy(data)
     product = create_entry(data)
     scrape_obj = create_scrape_entry(data)
     return product, scrape_obj

@@ -1,4 +1,5 @@
 ignored/
+share/
 .DS_Store
 bin/
 include/
