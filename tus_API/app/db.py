@@ -1,16 +1,18 @@
 import os
-
-from dotenv import load_dotenv
+import pathlib
+# from dotenv import load_dotenv
 
 from cassandra.cluster import Cluster
-import pathlib
+
 from cassandra.auth import PlainTextAuthProvider
 from cassandra.cqlengine.connection import register_connection, set_default_connection
-from requests import session
+from . import config
 
-load_dotenv()
-ASTRA_DB_CLIENT_ID = os.environ.get("ASTRA_DB_CLIENT_ID")
-ASTRA_DB_CLIENT_SECRET = os.environ.get("ASTRA_DB_CLIENT_SECRET")
+settings = config.get_settings()
+
+# load_dotenv()
+ASTRA_DB_CLIENT_ID = settings.db_client_id
+ASTRA_DB_CLIENT_SECRET = settings.db_client_secret
 
 BASE_DIR = pathlib.Path(__file__).parent
 CLUSTER_BUNDLE = str(BASE_DIR / "ignored" / 'connect.zip')

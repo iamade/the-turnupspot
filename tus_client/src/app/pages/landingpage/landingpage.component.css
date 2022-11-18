@@ -1,0 +1,33 @@
+#party1{
+    padding: 20px;
+    background: linear-gradient(white, white) padding-box,
+    linear-gradient(to bottom, #020A12, #E24980, #7A0405) border-box;
+border-radius: 2em;
+border: 2px solid transparent;
+float: right;
+}
+
+.intro-wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 100px;
+}
+
+.turnup-intro{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 34px;
+}
+
+.turnup-intro2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+}
+

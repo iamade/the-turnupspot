@@ -2,7 +2,7 @@ from uuid import UUID
 from typing import Optional
 from pydantic import BaseModel
 
-class EventSchema(BaseModel):
+class EventScrapeSchema(BaseModel):
     eventbrite_event_id: str
     name: Optional[str]
 

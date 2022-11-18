@@ -1,0 +1,92 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/font-awesome/css/font-awesome.min.css";
+@import "../node_modules/ngx-bootstrap/datepicker/bs-datepicker.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins:wght@400;500;700&display=swap');
+
+:root {
+    --mainColor: #FFFFFF;
+    --secondaryColor: linear-gradient(94.73deg, #EFF9FF 1.96%, rgba(252, 245, 255, 0.58) 91.67%);
+    --gradientBorderColor: linear-gradient(to bottom, #020A12, #E24980, #7A0405);
+    --primaryBorder: #83067F;
+    --secondaryBorder: #FFFFFF;
+   
+    --mainText: #1D1D1D;
+    --primaryText: #7A0405;
+    --secondaryText: #5B5B5B;
+
+    --themeDotBorder: #24292e;
+
+}
+
+html,body{
+    padding: 0;
+    margin: 0;
+}
+
+
+h1,h2,h3,strong{
+    color: var(--mainText);
+    font-family: 'Poppins';
+}
+
+h4,h5,h6,label{
+    color: var(--primaryText);
+    font-family: 'Poppins';
+}
+
+p, li, span, button{
+    color: var(--secondaryText);
+    font-family: 'Poppins', 'Montserrat';
+}
+
+h1{font-size: 30px; font-weight: 700;}
+
+#theme-options-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.theme-dot{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    border-radius: 50%;
+   
+    margin: 5px;
+    border: 2px solid var(--themeDotBorder);
+
+    box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+cursor: pointer;
+}
+
+#light-mode{
+    background-color: #fff;
+}
+#blue-mode{
+    background-color: #192734;
+}
+#green-mode{
+    background-color: #78866b;
+}
+#purple-mode{
+    background-color: #7E4C74;
+}
+
+.theme-dot:hover{
+    border-width: 5px;
+}
+
+.btn-gradient{
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+/*****Centralizing the content*****/
+.main-container{
+    width: 1400px;
+    margin: 0 auto;
+}

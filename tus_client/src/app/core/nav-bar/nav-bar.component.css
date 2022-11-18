@@ -1,0 +1,15 @@
+.navbar-wrapper{
+    grid-area: nav-wrapper;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 100px;
+}
+.app-logo{
+   
+}
+#logo1{
+    display: block;
+    height:"30px";
+    width:"30px";
+}
