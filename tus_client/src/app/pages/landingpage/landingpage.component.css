@@ -31,3 +31,91 @@ float: right;
     line-height: 160%;
 }
 
+.join-now{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+color: #1D1D1D;
+box-sizing: border-box;
+width: 178px;
+height: 50px;
+left: calc(50% - 178px/2 - 503px);
+top: calc(50% - 50px/2 - 344px);
+border: 2px solid #1D1D1D;
+border-radius: 5px;
+}
+
+
+.sub-header{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    color: #1D1D1D;
+    width: 1315px;
+    height: 47px;
+
+}
+
+.search-bar{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 641px;
+    height: 72px;
+    left: 233px;
+    top: 757px;
+    
+    background: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    /* shadow */
+    
+    box-shadow: 64.0184px 76.8221px 80px rgba(0, 0, 0, 0.07), 41.4934px 49.7921px 46.8519px rgba(0, 0, 0, 0.0531481), 24.659px 29.5907px 25.4815px rgba(0, 0, 0, 0.0425185), 12.8037px 15.3644px 13px rgba(0, 0, 0, 0.035), 5.21632px 6.25958px 6.51852px rgba(0, 0, 0, 0.0274815), 1.18553px 1.42263px 3.14815px rgba(0, 0, 0, 0.0168519);
+    border-radius: 12px;
+}
+
+.search-bar-shadow{
+    box-sizing: border-box;
+
+position: relative;
+left: 13.61%;
+right: 19.72%;
+top: 41.15%;
+bottom: 50.63%;
+
+background: rgba(255, 255, 255, 0.4);
+/* shadow */
+
+box-shadow: 64.0184px 76.8221px 80px rgba(0, 0, 0, 0.07), 41.4934px 49.7921px 46.8519px rgba(0, 0, 0, 0.0531481), 24.659px 29.5907px 25.4815px rgba(0, 0, 0, 0.0425185), 12.8037px 15.3644px 13px rgba(0, 0, 0, 0.035), 5.21632px 6.25958px 6.51852px rgba(0, 0, 0, 0.0274815), 1.18553px 1.42263px 3.14815px rgba(0, 0, 0, 0.0168519);
+border-radius: 12px;
+}
+
+.divider{
+    box-sizing: border-box;
+
+width: 0.73px;
+height: 70px;
+
+background: #F9E3D6;
+opacity: 0.3;
+border: 1px solid #2F4E84;
+
+/* Inside auto layout */
+margin-left: 70px;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+select{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+    width: 178px;
+    height: 50px;
+}
