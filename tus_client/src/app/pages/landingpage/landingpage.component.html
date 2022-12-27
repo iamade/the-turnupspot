@@ -81,10 +81,11 @@
 
     <label class="mx-3">Search for events</label>
     <div class="search-bar search-bar-shadow">
-        <img class="home mx-3" src="../../../assets/images/home.png">
-        <label class="m-2" for="">Turn-up spot in</label>
-     
-            <select name="locations">
+        <div  >
+            <img class="mx-3" src="../../../assets/images/home.png">
+
+            <label class="m-2 did-floating-label" for="floatingSelect">Turn-up spot in</label>
+            <select name="locations" class="select-adjust">
                 <option value="">Select Location</option>
                 <option value="lagos">Lagos</option>
                 <option value="Abuja">Abuja</option>
@@ -92,6 +93,20 @@
             </select>
       
         <img class="divider" src="../../../assets/images/divider.png">
+
+        <img  class="mx-2" src="../../../assets/images/calendar.png" alt="">
+        <label class="m-2 did-floating-date" >Date</label>
+        
+            <input type="text"
+                   placeholder="Datepicker"
+                   class=" datepicker"
+                   bsDatepicker>
+        
+
+        </div>
+       
+       
+        <!--  -->
     </div>
     </div>
 </section>

@@ -96,7 +96,7 @@ border-radius: 12px;
 }
 
 .divider{
-    box-sizing: border-box;
+box-sizing: border-box;
 
 width: 0.73px;
 height: 70px;
@@ -112,10 +112,56 @@ order: 1;
 flex-grow: 0;
 }
 
+
+
+.did-floating-label {
+    
+    font-size:13px;
+    font-weight:normal;
+    position:absolute;
+    left:40px;  
+    padding:0 5px;
+    background:#fff;
+   
+  }
+
+.did-floating-date{
+    font-size:13px;
+    font-weight:normal;
+    left:400px;  
+    position:absolute;
+    padding:0 5px;
+}
+
 select{
     background: transparent;
     border: none;
-    border-bottom: 1px solid #000000;
-    width: 178px;
+    width: 198px;
     height: 50px;
 }
+
+  .select-adjust{
+   
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+  }
+
+  .datepicker{
+    background: transparent;
+    border: none;
+    width: 198px;
+    height: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    left: 130px;
+  }
+
+  input{
+  
+  }
