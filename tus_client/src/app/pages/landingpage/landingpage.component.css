@@ -1,4 +1,4 @@
-#party1{
+#hero-image{
     padding: 20px;
     background: linear-gradient(white, white) padding-box,
     linear-gradient(to bottom, #020A12, #E24980, #7A0405) border-box;
@@ -7,7 +7,7 @@ border: 2px solid transparent;
 float: right;
 }
 
-.intro-wrapper{
+.hero{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     padding-top: 50px;
@@ -15,12 +15,45 @@ float: right;
     gap: 100px;
 }
 
-.turnup-intro{
+.connect{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: var(--primaryText);
+    padding-right: 6px;
+}
+
+.party, .network{
+    border-left: 1px solid #333;
+    padding-left: 6px;
+    padding-right: 6px;
+    color: var(--primaryText);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.content{
+    margin-top: 20px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
     line-height: 34px;
+}
+
+.party-image{
+    margin-top: 30px;
+}
+
+.sub-content{
+    margin-top: 40px;
 }
 
 .turnup-intro2{
@@ -37,7 +70,6 @@ font-style: normal;
 font-weight: 500;
 font-size: 18px;
 line-height: 27px;
-/* identical to box height */
 color: #1D1D1D;
 box-sizing: border-box;
 width: 178px;
@@ -49,105 +81,119 @@ border-radius: 5px;
 }
 
 
-.sub-header{
+
+ul{
+    list-style-type: none;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 27px;
-    /* identical to box height */
-    color: #1D1D1D;
-    width: 1315px;
-    height: 47px;
-
-}
-
-.search-bar{
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 641px;
-    height: 72px;
-    left: 233px;
-    top: 757px;
-    
-    background: #FFFFFF;
-    border: 2px solid #FFFFFF;
-    /* shadow */
-    
-    box-shadow: 64.0184px 76.8221px 80px rgba(0, 0, 0, 0.07), 41.4934px 49.7921px 46.8519px rgba(0, 0, 0, 0.0531481), 24.659px 29.5907px 25.4815px rgba(0, 0, 0, 0.0425185), 12.8037px 15.3644px 13px rgba(0, 0, 0, 0.035), 5.21632px 6.25958px 6.51852px rgba(0, 0, 0, 0.0274815), 1.18553px 1.42263px 3.14815px rgba(0, 0, 0, 0.0168519);
-    border-radius: 12px;
-}
-
-.search-bar-shadow{
-    box-sizing: border-box;
-
-position: relative;
-left: 13.61%;
-right: 19.72%;
-top: 41.15%;
-bottom: 50.63%;
-
-background: rgba(255, 255, 255, 0.4);
-/* shadow */
-
-box-shadow: 64.0184px 76.8221px 80px rgba(0, 0, 0, 0.07), 41.4934px 49.7921px 46.8519px rgba(0, 0, 0, 0.0531481), 24.659px 29.5907px 25.4815px rgba(0, 0, 0, 0.0425185), 12.8037px 15.3644px 13px rgba(0, 0, 0, 0.035), 5.21632px 6.25958px 6.51852px rgba(0, 0, 0, 0.0274815), 1.18553px 1.42263px 3.14815px rgba(0, 0, 0, 0.0168519);
-border-radius: 12px;
-}
-
-.divider{
-box-sizing: border-box;
-
-width: 0.73px;
-height: 70px;
-
-background: #F9E3D6;
-opacity: 0.3;
-border: 1px solid #2F4E84;
-
-/* Inside auto layout */
-margin-left: 70px;
-flex: none;
-order: 1;
-flex-grow: 0;
 }
 
 
+.search-header{
+    margin-left: 30px;
+}
 
-.did-floating-label {
-    
-    font-size:13px;
-    font-weight:normal;
-    position:absolute;
-    left:40px;  
-    padding:0 5px;
-    background:#fff;
+form{
    
-  }
+    display: flex;
+    margin-top: 1%;
+    margin-left: 8%;
+    align-items: center;
+   border-radius: 12px;
+ 
+   max-width: 1050px;
+   padding: 27px 35px;
 
-.did-floating-date{
-    font-size:13px;
-    font-weight:normal;
-    left:400px;  
-    position:absolute;
-    padding:0 5px;
+    background-color: rgba(255, 255, 255, 0.4); 
+    border-radius: 12px;
+    box-shadow: 4.0184px 76.8221px 80px rgba(0, 0, 0, 0.07), 41.4934px 49.7921px 46.8519px rgba(0, 0, 0, 0.0531481), 24.659px 29.5907px 25.4815px rgba(0, 0, 0, 0.0425185), 12.8037px 15.3644px 13px rgba(0, 0, 0, 0.035), 5.21632px 6.25958px 6.51852px rgba(0, 0, 0, 0.0274815), 1.18553px 1.42263px 3.14815px rgba(0, 0, 0, 0.0168519);
+}
+
+.search_input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 700px;
+    width: 100%;
+    margin-left: 10px;
+    padding: 2px 15px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    box-shadow: rgba(0,0,0,.9) 0px 8px 24px;
+}
+
+.home-text, .date-text{
+    display: flex;
+    
+}
+
+.home-icon {
+    padding: 20px ;
+    padding-right: 30px;
+}
+form label{
+    font-size: .8rem;
+    padding-bottom: 2px ;
+}
+
+.text, .date-select{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    
+}
+
+.turn-up{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 14px;
+}
+
+.date{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 14px;
+}
+
+.date-text{
+    border-left: 1px solid #333;
+    padding-left: 76px;
+}
+
+.date-icon{
+    padding-top: 20px ;
+    padding-right: 30px;
 }
 
 select{
-    background: transparent;
+    background-color: transparent;
     border: none;
     width: 198px;
     height: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
 }
 
-  .select-adjust{
-   
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 20px;
-  }
+form select:focus{
+    outline: none;
+}
+
 
   .datepicker{
     background: transparent;
@@ -162,6 +208,30 @@ line-height: 20px;
     left: 130px;
   }
 
-  input{
-  
+  form input:focus{
+    outline: none;
   }
+
+  .search{
+    margin-left: 30px;
+  }
+  .search_btn{
+    display: block;
+    padding: 25px 70px;
+    border: 1px solid #1D1D1D;
+    border-radius: 12px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 20px;
+  }
+
+  .arrow{
+    display: flex;
+  }
+
+  @media screen and (max-width: 720px) {
+    
+  }
+

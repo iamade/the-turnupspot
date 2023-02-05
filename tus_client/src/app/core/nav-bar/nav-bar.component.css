@@ -5,11 +5,20 @@
     align-items: center;
     margin: 5px 100px;
 }
-.app-logo{
-   
+.navigation{
+   margin-right: 120px;
 }
 #logo1{
     display: block;
     height:"30px";
     width:"30px";
+}
+
+.login{
+    padding: 10px 40px;
+}
+
+.btn-grad{
+    border-radius: 15px;
+    border: 1px solid black;
 }

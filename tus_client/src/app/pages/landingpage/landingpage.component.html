@@ -8,15 +8,16 @@
 
 <section>
     <div class="main-container">
-        <div class="intro-wrapper">
+        <div class="hero">
             <div >
-                <label> Connect | Party | Network  </label>
-                <h3 class="turnup-intro">Nigeria's foremost event management 
+                <!-- <label> CONNECT <span class="party">Party</span>  <span class="network">Network</span>   </label> -->
+                <label > <span class="connect">CONNECT</span> <span class="party">PARTY</span>  <span class="network"> NETWORK </span>  </label>
+                <h3 class="content">Nigeria's foremost event management 
                     platform, where people visit when they 
                     want to find something fun to do in 
                     their area.</h3>
 
-                    <p class="intro-wrapper2">
+                    <p class="sub-content">
                         Turn-spot has been used by users to connect, form friendships,
                          get support, expand their businesses, and pursue their interests. 
                          Join the fun as thousands of events take place every day.
@@ -26,7 +27,7 @@
            
 
             <div class="party-image">
-                <img src="../../../assets/images/party1.png" id="party1" alt="">
+                <img src="../../../assets/images/party1.png" id="hero-image" alt="">
             </div>
             
         </div>
@@ -41,72 +42,84 @@
     <div class="main-container">
 
     
-    <div class="flex sub-header">
-        <span class="mx-3">
-            All
-        </span>
-        <span class="mx-3">
-            Online
-        </span>
-        <span class="mx-3">
-            Today
-        </span >
-        <span class="mx-3">
-            This weekend
-        </span>
-        <span class="mx-3">
-            Free
-        </span>
-        <span class="mx-3">
-            Music
-        </span>
-        <span class="mx-3">
-            Owambe
-        </span>
-        <span class="mx-3">
-            Food & Drink
-        </span>
-        <span class="mx-3">
-            Concert
-        </span>
-        <span class="mx-3">
-            Charity & Causes
-        </span>
-        <span class="mx-3">
-            VIP
-        </span>
-
+    <div >
+        <ul class="menu">
+            <li>All</li>
+            <li>Online</li>
+            <li>Today</li>
+            <li>This weekend</li>
+            <li>Free</li>
+            <li>Music</li>
+            <li>Owambe</li>
+            <li>Food & Drink</li>
+            <li>Concert</li>
+            <li>Charity & Causes</li>
+              
+            <li>VIP</li>
+        </ul>
+            
         
     </div>
 
-    <label class="mx-3">Search for events</label>
-    <div class="search-bar search-bar-shadow">
-        <div  >
-            <img class="mx-3" src="../../../assets/images/home.png">
-
-            <label class="m-2 did-floating-label" for="floatingSelect">Turn-up spot in</label>
-            <select name="locations" class="select-adjust">
-                <option value="">Select Location</option>
-                <option value="lagos">Lagos</option>
-                <option value="Abuja">Abuja</option>
-                <option value="Gombe">Gombe</option>
-            </select>
+    <label class="search-header">Search for events</label>
+    <form>
+        <div class="search_input">
+            <div class="home-text">
+                <div class="home-icon">
+                    <img src="../../../assets/images/home.png">
+                </div>
+               
+                <div class="text">
+                    <label class="turn-up">Turn-up spot in</label>
+                    <select name="locations" class="select_options">
+                        <option value="">Select Location</option>
+                        <option value="lagos">Lagos</option>
+                        <option value="Abuja">Abuja</option>
+                        <option value="Gombe">Gombe</option>
+                    </select>
+                </div>
+            </div>
+            
+            
+            <div class="date-text">
+                <div class="date-icon" >
+                    <img  src="../../../assets/images/calendar.png" alt="">
+                </div>
+                    
+                    <div class="date-select">
+                        <label for="date" class="date" >Date</label>
+                        <input type="date"
+                        placeholder="Datepicker"
+                        class=" datepicker"
+                        >
+                    </div>
+           
+            </div>
+        </div>
       
-        <img class="divider" src="../../../assets/images/divider.png">
+        <div class="search">
+            <button class="search_btn">Search</button>
+        </div>
+    </form>
 
-        <img  class="mx-2" src="../../../assets/images/calendar.png" alt="">
-        <label class="m-2 did-floating-date" >Date</label>
+  
+
+    </div>
+
+
+</section>
+
+<section class="mt-5">
+    <div class="main-container">
+        <div class="arrow">
+            <h2 class="sub-headers">Most Popular CATEGORIES </h2>
+            <i class="fa-regular fa-circle-arrow-right"></i>
+        </div>
         
-            <input type="text"
-                   placeholder="Datepicker"
-                   class=" datepicker"
-                   bsDatepicker>
-        
+
+
 
         </div>
-       
-       
-        <!--  -->
-    </div>
-    </div>
+
+
 </section>

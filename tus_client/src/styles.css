@@ -90,3 +90,15 @@ cursor: pointer;
     width: 1400px;
     margin: 0 auto;
 }
+
+
+.sub-headers{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+margin-left: 30px;
+margin-top: 8%;
+text-transform: uppercase;
+}
