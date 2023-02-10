@@ -227,8 +227,41 @@ font-size: 20px;
 line-height: 20px;
   }
 
-  .arrow{
+  .popular{
     display: flex;
+  }
+  .arrow{
+    margin-top: 85px;
+    margin-left: 70%;
+    padding: 20px ;
+    width: 70px;
+    height: 80px;
+  }
+
+ .categories{
+    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+    margin: 4rem 2rem;
+  }
+
+.category-images h5{
+    
+   
+  }
+
+  h5 .category-name{
+    text-align: center;
+  }
+
+  .mpc-images{
+    padding: 20px;
+    background: linear-gradient(white, white) padding-box,
+    linear-gradient(to bottom, #020A12, #E24980, #7A0405) border-box;
+border-radius: 2em;
+border: 2px solid transparent;
+
   }
 
   @media screen and (max-width: 720px) {
