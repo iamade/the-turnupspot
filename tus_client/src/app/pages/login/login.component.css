@@ -1,0 +1,86 @@
+.secondary-container{
+    width: 700px;
+    margin: 0 auto;
+}
+
+.second-header{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 29px;
+color: #000000;
+text-align: center;
+margin-bottom: 30px;
+}
+
+.alt-login{
+    display: flex;
+    margin-left: 30% ;
+    align-content: center;
+    
+}
+
+.google{
+background: #ffffff;
+border: 1px solid #7A0405;
+border-radius: 5px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+color: #000000;
+}
+
+.facebook{
+    background: #ffffff;
+    border: 1px solid #7A0405;
+    border-radius: 5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: #000000;
+}
+
+.x-close{
+    margin-top: 4%;
+    margin-left: 73%;
+}
+
+.btn-grad{
+    border-radius: 100%;
+    border: 1px solid #7A0405;
+    
+}
+
+p{
+    width: 60%; 
+    text-align: center; 
+    border-bottom: 1px solid #DBDBDB; 
+    line-height: 0.1em;
+    margin: 50px 150px 20px; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+ } 
+
+ p span{ 
+    background:#fff; 
+    padding:0 10px; 
+}
+
+.user_details{
+    display:list-item;
+}
+
+input{
+    position: relative;
+width: 400px;
+height: 70px;
+background: #FFFFFF;
+border: 1px solid #D9D9D9;
+border-radius: 10px;
+margin: 20px 150px 20px; 
+}
