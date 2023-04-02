@@ -4,6 +4,7 @@
 
 
 <div class="secondary-container">
+   
     <div class="headers">Welcome Back</div>
     <div class="second-header">Login to TurnUp</div>
     <div class="alt-login">
@@ -11,13 +12,33 @@
         <button class="btn btn-outline-primary facebook"><img src="../../../assets/images/facebook.svg" class="mx-2"/>Facebook</button>
     </div>
 
-    <p><span>or continue with</span></p>
+    <p><span class="line">or continue with</span></p>
 
     <div class="">
-        <input type="text" class="" placeholder="Email"/>
+        <input type="text" class=".text-box" placeholder="Email"/>
     </div>
     <div>
-        <input type="text" class="" placeholder="Password"/>
+        <input type="text" class=".text-box" placeholder="Password"/>
     </div>
+
+    <div class="sub-content">
+        <div class="toggle-align">
+            <label class="switch">
+                <input type="checkbox" [checked]="remember" (change)="checkClicked(remember)" value="user.isDisabled">
+                <span class="slider round"></span>
+              </label>
+              <div class="small-12-normal remember-text ">Remember me</div>
+        </div>
+        <div>
+            <div class="recover-style">Recover Password</div>
+        </div>
+    </div>
+
+    <div>
+        <button class="login">Login</button>
+       
+    </div>
+    <div>don't have an account? Sign up!</div>
+
 </div>
 

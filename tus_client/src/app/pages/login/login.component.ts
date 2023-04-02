@@ -7,7 +7,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
-
+  remember: boolean
   constructor(private router: Router) { }
 
   ngOnInit(): void {
@@ -16,6 +16,10 @@ export class LoginComponent implements OnInit {
 
   goToLanding(){
     this.router.navigate(['/landingpage'])
+  }
+
+  checkClicked(data){
+
   }
 
 }
