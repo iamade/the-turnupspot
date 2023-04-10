@@ -270,11 +270,10 @@ border: 2px solid transparent;
     grid-template-columns: repeat(4, 1fr);
     flex-wrap: wrap;
     justify-content: start;
-    gap: 20px;
+    gap: 50px;
 }
 
-.card{
-   
+.cards .card{
 border-radius: 20.722px;
 width: 290px;
 height: 397px;

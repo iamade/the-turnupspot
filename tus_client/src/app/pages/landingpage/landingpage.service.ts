@@ -8,6 +8,9 @@ export class LandingpageService {
 
   constructor() { }
 
+  getEvents(){
+    return this.event.slice()
+  }
 
 
 
