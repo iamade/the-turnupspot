@@ -265,3 +265,27 @@ border: 2px solid transparent;
     
   }
 
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 20px;
+}
+
+.card{
+   
+border-radius: 20.722px;
+width: 290px;
+height: 397px;
+}
+
+.card-bg{
+    background: linear-gradient(90deg, rgba(73, 190, 255, 0.3) 0%, rgba(200, 82, 255, 0.28) 100%);
+    mix-blend-mode: multiply;
+    opacity: 0.4;
+    border: 1.0361px solid #83067F;
+    border-radius: 20.722px;
+    box-shadow: 10.361px 10.361px 20.722px rgba(215, 228, 249, 0.46);
+    height: 50%;
+}

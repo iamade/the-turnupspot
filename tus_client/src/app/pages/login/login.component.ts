@@ -11,7 +11,11 @@ export class LoginComponent implements OnInit {
   constructor(private router: Router) { }
 
   ngOnInit(): void {
-    
+    this.login()
+  }
+
+  login(){
+    localStorage.setItem('login', '1')
   }
 
   goToLanding(){

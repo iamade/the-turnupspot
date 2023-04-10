@@ -8,6 +8,7 @@ import { CoreModule } from './core/core.module';
 import { LandingpageModule } from './pages/landingpage/landingpage.module';
 import { LoginModule } from './pages/login/login.module';
 import { SignupModule } from './pages/signup/signup.module';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,7 @@ import { SignupModule } from './pages/signup/signup.module';
     LandingpageModule,
     LoginModule,
     SignupModule
-
+    
 
     
   ],
