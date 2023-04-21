@@ -156,7 +156,8 @@
             <div class="col-md-4 cards">
               <div *ngFor="let event of events" class="card mb-4 shadow-sm" >
                 <div class="card-bg" >
-                    {{event.image || hello}}
+                  <img src="{{event.image || hello}}" alt="arrow" width="" height="195px"/>
+                
                 </div>
                 <div class="card-body">
                   <p class="card-text">{{event.name}}</p>

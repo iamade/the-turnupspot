@@ -4,5 +4,6 @@ export interface Events {
     name: string;
     description: string
     likes: number
+    dateOfEvent: string;
     createdAt: string
 }
