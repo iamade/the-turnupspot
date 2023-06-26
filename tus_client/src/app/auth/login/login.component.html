@@ -14,11 +14,17 @@
 
     <p><span class="line">or continue with</span></p>
 
+    <form 
+    [formGroup]="loginForm"
+    (ngSubmit)="login(loginForm.value)" 
+    >
+
+   
     <div class="">
-        <input type="text" class=".text-box" placeholder="Email"/>
+        <input type="text" class="form-control text-box" placeholder="Email" formControlName="email"/>
     </div>
     <div>
-        <input type="text" class=".text-box" placeholder="Password"/>
+        <input type="password" class="form-control text-box" placeholder="Password" formControlName="password"/>
     </div>
 
     <div class="sub-content">
@@ -35,9 +41,10 @@
     </div>
 
     <div>
-        <button class="login">Login</button>
-       
+        <button class="btn-log" type="submit">Login</button>
     </div>
+</form>
+
     <div class="account">Don't have an account? <span class="signup">Sign up!</span> </div>
 
 </div>

@@ -4,8 +4,8 @@ import { LandingpageComponent } from "./pages/landingpage/landingpage.component"
 const routes: Routes = [
 {path: '', pathMatch:'full', redirectTo: 'landingpage'},
 {path: 'landingpage', loadChildren:()=> import('./pages/landingpage/landingpage.module').then(m => m.LandingpageModule)},
-{path: 'login', loadChildren:()=>import('./pages/login/login.module').then(m => m.LoginModule)},
-{path: 'sign-up', loadChildren:() => import('./pages/signup/signup.module').then(m => m.SignupModule)}
+{path: 'auth', loadChildren:()=>import('./auth/auth.module').then(m => m.AuthModule)},
+// {path: 'sign-up', loadChildren:() => import('./in/loginauth/signup/signup.module').then(m => m.SignupModule)}
 // {path: '**', component: LandingpageComponent, }
 ];
 
